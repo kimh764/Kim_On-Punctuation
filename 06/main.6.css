@@ -83,7 +83,7 @@ div {
   
   .falling-text p {
     display: inline-block;
-    font-size: 30px;
+    font-size: 26px;
     animation: fall 1s ease-out forwards;
     opacity: 0; /* Start with opacity 0 to make letters appear gradually */
   }
