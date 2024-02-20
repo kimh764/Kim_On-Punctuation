@@ -1,0 +1,100 @@
+.e7_7 { 
+	overflow:hidden;
+}
+.e7_7 { 
+	background-color:rgba(255, 255, 255, 1);
+	width:1440px;
+	height:1024px;
+	position:absolute;
+}
+.e30_17 { 
+	color:rgba(217.0000022649765, 217.0000022649765, 217.0000022649765, 1);
+	width:1358px;
+	height:960px;
+	position:absolute;
+	left:41px;
+	top:31px;
+	font-family:Times New Roman;
+	text-align:left;
+	font-size:16px;
+	letter-spacing:0;
+}
+.e9_231 { 
+	color:rgba(217.0000022649765, 217.0000022649765, 217.0000022649765, 1);
+	width:227px;
+	height:242px;
+	position:absolute;
+	left:143px;
+	top:710px;
+	font-family:Inter;
+	text-align:left;
+	font-size:200px;
+	letter-spacing:0;
+}
+.e9_232 { 
+	color:rgba(217.0000022649765, 217.0000022649765, 217.0000022649765, 1);
+	width:182px;
+	height:242px;
+	position:absolute;
+	left:417px;
+	top:516px;
+	font-family:Inter;
+	text-align:left;
+	font-size:200px;
+	letter-spacing:0;
+}
+.e9_233 { 
+	color:rgba(217.0000022649765, 217.0000022649765, 217.0000022649765, 1);
+	width:176px;
+	height:242px;
+	position:absolute;
+	left:708px;
+	top:322px;
+	font-family:Inter;
+	text-align:left;
+	font-size:200px;
+	letter-spacing:0;
+}
+.e9_234 { 
+	color:rgba(217.0000022649765, 217.0000022649765, 217.0000022649765, 1);
+	width:181px;
+	height:242px;
+	position:absolute;
+	left:982px;
+	top:102px;
+	font-family:Inter;
+	text-align:left;
+	font-size:200px;
+	letter-spacing:0;
+}
+.e30_15 { 
+	border-radius:500px;
+	background-color:rgba(217.0000022649765, 217.0000022649765, 217.0000022649765, 0.36000001430511475);
+	width:750px;
+	height:750px;
+	position:absolute;
+	left:354px;
+	top:154px;
+}
+.e30_16 { 
+	color:grey;
+	width:469px;
+	height:520px;
+	position:absolute;
+	left:501px;
+	top:300px;
+	font-family:Times New Roman;
+	text-align:left;
+	font-size:16px;
+	letter-spacing:0;
+}
+@keyframes moveText {
+    0% { transform: translateX(0); }
+    50% { transform: translateX(50px); } /* 좌우로 50px 이동 */
+    100% { transform: translateX(0); }
+  }
+
+  .e30_17 {
+    animation: moveText 2s infinite; /* 2초 간격으로 반복 */
+  }
+

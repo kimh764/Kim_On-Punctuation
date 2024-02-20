@@ -1,0 +1,59 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    background-color:white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+p {
+    max-width: 500px;
+    white-space: pre-line;
+    letter-spacing: 0.15em;
+    font-size: 1.5em;
+    color:rgba(217, 217, 217, 0.7);
+}
+
+.container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    text-align: center; /* 텍스트를 가운데 정렬 */
+  	line-height: 30px; /* 높이와 같은 값으로 line-height 설정 */
+  	vertical-align: middle; /* vertical-align을 middle로 설정하여 수직 가운데 정렬 */
+	display: inline-block; /* 인라인 레벨 요소를 블록 레벨로 변경 */
+  	color:white;
+}
+.circle-container {
+    width: 400px;
+    height: 300px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.circle-container:after {
+    content: '';
+    width: 40px;
+    height: 10px;
+    position: absolute;
+    background: gainsboro;
+    border-radius: 50%;
+    bottom: 0;
+    left: 50%;
+    opacity: 0.4;
+    animation: shadow 4s linear infinite;
+}
+
+
+.circle {
+    width: 40px;
+    height: 40px;
+    background:rgba(217, 217, 217, 0.7);
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    animation: anim 4s linear infinite;
+}

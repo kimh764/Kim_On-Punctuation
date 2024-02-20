@@ -1,0 +1,346 @@
+
+body {
+    background-color: white;
+}
+.container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+}
+.circle-container {
+    width: 400px;
+    height: 300px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.circle-container:after {
+    content: '';
+    width: 40px;
+    height: 10px;
+    position: absolute;
+    background: gainsboro;
+    border-radius: 50%;
+    bottom: 0;
+    left: 50%;
+    opacity: 0.4;
+    animation: shadow 4s linear infinite;
+}
+.circle-container:nth-child(2):after{
+    animation-delay: -0.3s;
+}
+.circle-container:nth-child(3):after {
+    animation-delay: -0.6s;
+}
+
+.circle-container:nth-child(2) .circle{
+    animation-delay: -0.3s;
+}
+.circle-container:nth-child(3) .circle {
+    animation-delay: -0.6s;
+}
+.circle {
+    width: 30px;
+    height: 30px;
+    background:#D9D9D9;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    animation: anim 4s linear infinite;
+}
+
+@keyframes anim {
+0% {
+    transform-origin: 400% 50%;
+    transform: rotate(0);
+}
+50% {
+    transform-origin: 400% 50%;
+    transform: rotate(360deg);
+}
+
+50.1% {
+    transform-origin: -300% 50%;
+    transform: rotate(0deg);
+}
+100% {
+    transform-origin: -300% 50%;
+    transform: rotate(-360deg);
+}
+}
+
+@keyframes shadow {
+    0%{}
+    12.5%{
+        transform:translate(50px) scale(0.6);
+    }
+    25%{ transform:translate(110px);
+    }
+    37.5%{
+        transform:translate(50px) scale(1.4);
+    }
+    50%{
+        transform:translate(0);
+    }
+    62.5%{
+        transform:translate(-50px)scale(0.6);
+    }
+    75% {
+        transform:translate(-110px);
+    }
+    87.5%{
+        transform:translate(-50px) scale(1.4);
+    }
+    100% {
+        transform:translate(0px) ;
+    }
+}
+
+.container1 {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+}
+.circle1-container {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 50%;
+    top: 80%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+.circle1-container:nth-child(2) .circle1{
+    animation-delay: -0.4s;
+}
+.circle1-container:nth-child(3) .circle1 {
+    animation-delay: -086s;
+}
+.circle1 {
+    width: 60px;
+    height: 60px;
+    background: #D9D9D9;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    animation: anim 4s linear infinite;
+}
+
+
+
+
+/*2*/
+
+.container2 {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+}
+.circle2-container {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 50%;
+    top: 80%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+.circle2-container:nth-child(2) .circle2{
+    animation-delay: -0.4s;
+}
+.circle2-container:nth-child(3) .circle2 {
+    animation-delay: -06s;
+}
+.circle2 {
+    width: 100px;
+    height: 100px;
+    background: #D9D9D9;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    animation: anim 8s linear infinite;
+}
+
+
+.e7_2 { 
+	overflow:hidden;
+}
+.e7_2 { 
+	background-color:rgba(255, 255, 255, 1);
+	width:1440px;
+	height:1024px;
+	position:absolute;
+}
+.e7_31 { 
+	transform: rotate(19.89261378563459deg);
+	border-radius:500px;
+	background-color: #D9D9D9;
+	width:355px;
+	height:364px;
+	position:absolute;
+	left:1000px;
+	top:27px;
+}
+.e21_113 { 
+	transform: rotate(19.89261378563459deg);
+	border-radius:400px;
+	background-color:#D9D9D9;
+	width:420px;
+	height:430px;
+	position:absolute;
+	left:144px;
+	top:16px;
+}
+.e21_114 { 
+	transform: rotate(19.89261378563459deg);
+	border-radius:500px;
+	background-color:#D9D9D9;
+	color: white;
+	
+	font-size: 40px;
+	width:260px;
+	height:260px;
+	position:absolute;
+	left:222px;
+	top:630px;
+    animation: moveSideways 2s infinite;
+	text-align: center; /* 텍스트를 가운데 정렬 */
+	line-height: 260px; /* 높이와 같은 값으로 line-height 설정 */
+	vertical-align: middle; /* vertical-align을 middle로 설정하여 수직 가운데 정렬 */
+	display: inline-block; /* 인라인 레벨 요소를 블록 레벨로 변경 */
+}
+.e21_116 { 
+	transform: rotate(19.89261378563459deg);
+	border-radius:500px;
+	background-color:#D9D9D9;
+	width:282px;
+	height:283px;
+	position:absolute;
+	left:1100px;
+	top:397px;
+}
+.e21_117 { 
+	transform: rotate(19.89261378563459deg);
+	border-radius:500px;
+	background-color:#D9D9D9;
+	width:178px;
+	height:173px;
+	position:absolute;
+	left:1129px;
+	top:733px;
+}
+.e7_34 { 
+	transform: rotate(-1.322984835330524deg);
+	border-radius:500px;
+	background-color: #D9D9D9;
+    width:72px;
+	height:74px;
+	position:absolute;
+	left:979px;
+	top:737px;
+}
+.e7_35 { 
+	transform: rotate(-1.322984835330524deg);
+	border-radius:500px;
+	background-color:#D9D9D9;
+	width:72px;
+	height:74px;
+	position:absolute;
+	left:981px;
+	top:838px;
+}
+.e21_118 { 
+	transform: rotate(-1.322984835330524deg);
+	border-radius:500px;
+	background-color:#D9D9D9;
+	width:72px;
+	height:74px;
+	position:absolute;
+	left:869px;
+	top:920.671875px;
+}
+.e21_119 { 
+	transform: rotate(-1.322984835330524deg);
+	border-radius:500px;
+	background-color:#D9D9D9;
+	width:72px;
+	height:74px;
+	position:absolute;
+	left:739px;
+	top:921.671875px;
+}
+.e7_32 { 
+	transform: rotate(19.89261378563459deg);
+	border-radius:500px;
+	background-color:#D9D9D9;
+	width:538px;
+	height:550px;
+	position:absolute;
+	left:526px;
+	top:214px;
+}
+.e21_120 { 
+	color:rgba(255, 255, 255, 1);
+	width:306px;
+	height:243px;
+	position:absolute;
+	left:200px;
+	top:150px;
+	font-family:Times New Roman;
+	text-align:left;
+	font-size:14px;
+	letter-spacing:0;
+}
+.e21_121 { 
+	color:rgba(255, 255, 255, 1);
+	width:373px;
+	height:232px;
+	position:absolute;
+	left:620px;
+	top:360px;
+	font-family:Noto Serif Gujarati;
+	text-align:left;
+	font-size:28px;
+	letter-spacing:0;
+}
+.e21_122 { 
+	color:rgba(255, 255, 255, 1);
+	width:237px;
+	height:140px;
+	position:absolute;
+	left:1130px;
+	top:480px;
+	font-family:Times New Roman;
+	text-align:left;
+	font-size:14px;
+	letter-spacing:0;
+}
+.e21_123 { 
+	color:rgba(255, 255, 255, 1);
+	width:184px;
+	height:168px;
+	position:absolute;
+	left:1030px;
+	top:160px;
+	font-family:Times New Roman;
+	text-align:left;
+	font-size:14px;
+	letter-spacing:0;
+}
+
+
+
+@keyframes moveSideways {
+    0% { transform: translateX(0); } /* 초기 위치: 움직이지 않음 */
+    50% { transform: translateX(100px); } /* 중간 위치: 오른쪽으로 100px 이동 */
+    100% { transform: translateX(0); } /* 최종 위치: 다시 초기 위치로 이동 */
+  }
+

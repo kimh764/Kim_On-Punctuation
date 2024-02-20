@@ -1,0 +1,95 @@
+.e30_18 { 
+	overflow:hidden;
+}
+.e30_18 { 
+	background-color:rgba(255, 255, 255, 1);
+	width:1440px;
+	height:1024px;
+	position:absolute;
+}
+.e30_28 { 
+	transform: rotate(-0.25deg);
+	border-radius:500px;
+	background-color:rgba(217.0000022649765, 217.0000022649765, 217.0000022649765, 1);
+	width:550px;
+	height:550px;
+	position:absolute;
+	left:416px;
+	top:254.44775390625px;
+}
+.e30_34 { 
+	transform: rotate(-0.25deg);
+	border-radius:500px;
+	background-color:rgba(217.0000022649765, 217.0000022649765, 217.0000022649765, 1);
+	width:300px;
+	height:300px;
+	position:absolute;
+	left:109px;
+	top:95px;
+}
+.e30_35 { 
+	transform: rotate(-0.25deg);
+	border-radius:500px;
+	background-color:rgba(217.0000022649765, 217.0000022649765, 217.0000022649765, 1);
+	width:300px;
+	height:300px;
+	position:absolute;
+	left:1042px;
+	top:655px;
+}
+.e30_30 { 
+	color:rgba(255, 255, 255, 1);
+	width:373px;
+	height:304px;
+	position:absolute;
+	left:511px;
+	top:376px;
+	font-family:Times New Roman;
+	text-align:left;
+	font-size:16px;
+	letter-spacing:0;
+}
+.e30_36 { 
+	color: #D9D9D9;
+	width:806px;
+	height:197px;
+	position:absolute;
+	left:74px;
+	top:814px;
+	font-family:Times New Roman;
+	text-align:left;
+	font-size:20px;
+	letter-spacing:0;
+}
+.e31_3 { 
+	color:rgba(255, 255, 255, 1);
+	width:133px;
+	height:119px;
+	position:absolute;
+	left:1126px;
+	top:772px;
+	font-family:Times New Roman;
+	text-align:left;
+	font-size:60px;
+	letter-spacing:0;
+}
+
+
+
+
+
+
+.e30_34,
+.e30_35 {
+  transform-origin: center center; /* 회전 중심을 원의 중심으로 설정 */
+  animation: moveSideways 2s linear infinite; /* 애니메이션 속성 설정 */
+}
+
+@keyframes moveSideways {
+  0%, 100% {
+    transform: rotate(-0.25deg) translateX(0); /* 초기 위치 */
+  }
+  50% {
+    transform: rotate(-0.25deg) translateX(50px); /* 오른쪽으로 이동 */
+  }
+}

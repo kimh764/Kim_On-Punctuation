@@ -1,0 +1,107 @@
+.e7_6 { 
+	overflow:hidden;
+}
+.e7_6 { 
+	background-color:rgba(255, 255, 255, 1);
+	width:1440px;
+	height:1024px;
+	position:absolute;
+}
+.e30_13 { 
+	color:#D9D9D9;
+	width:1372px;
+	height:949px;
+	position:absolute;
+	left:34px;
+	top:32px;
+	font-family:Times New Roman;
+	text-align:left;
+	font-size:16px;
+	letter-spacing:0;
+}
+.e9_152 { 
+	color:rgba(217.0000022649765, 217.0000022649765, 217.0000022649765, 1);
+	width:181px;
+	height:242px;
+	position:absolute;
+	left:143px;
+	top:76px;
+	font-family:Inter;
+	text-align:left;
+	font-size:200px;
+	letter-spacing:0;
+}
+.e9_153 { 
+	color:rgba(217.0000022649765, 217.0000022649765, 217.0000022649765, 1);
+	width:176px;
+	height:242px;
+	position:absolute;
+	left:417px;
+	top:318px;
+	font-family:Inter;
+	text-align:left;
+	font-size:200px;
+	letter-spacing:0;
+}
+.e9_154 { 
+	color:rgba(217.0000022649765, 217.0000022649765, 217.0000022649765, 1);
+	width:182px;
+	height:242px;
+	position:absolute;
+	left:720px;
+	top:512px;
+	font-family:Inter;
+	text-align:left;
+	font-size:200px;
+	letter-spacing:0;
+}
+.e9_155 { 
+	color:rgba(217.0000022649765, 217.0000022649765, 217.0000022649765, 1);
+	width:227px;
+	height:242px;
+	position:absolute;
+	left:994px;
+	top:706px;
+	font-family:Inter;
+	text-align:left;
+	font-size:200px;
+	letter-spacing:0;
+}
+.e30_12 { 
+	border-radius:500px;
+	background-color:rgba(217.0000022649765, 217.0000022649765, 217.0000022649765, 0.36000001430511475);
+	width:750px;
+	height:750px;
+	position:absolute;
+	left:324px;
+	top:169px;
+}
+.e9_230 { 
+	color: grey;
+	width:469px;
+	height:520px;
+	position:absolute;
+	left:478px;
+	top:331px;
+	font-family:Times New Roman;
+	text-align:left;
+	font-size:16px;
+	letter-spacing:0;
+}
+
+
+.e30_13 {
+    display: inline-block;
+    font-size: 18px;
+    animation: moveText 2s infinite alternate; /* Adjust animation properties as needed */
+  }
+  
+  @keyframes moveText {
+    0% {
+      transform: translateX(0);
+    }
+  
+    100% {
+      transform: translateX(20px); /* Adjust the distance to move the text */
+    }
+  }

@@ -1,0 +1,157 @@
+.e29_2 { 
+	overflow:hidden;
+}
+.e29_2 { 
+	background-color:rgba(255, 255, 255, 1);
+	width:1440px;
+	height:1024px;
+	position:absolute;
+}
+.e29_11 { 
+	border-radius:500px;
+    background-color: rgba(217, 217, 217, 0.8);
+	width:300px;
+	height:300px;
+	position:absolute;
+	left:904px;
+	top:626px;
+}
+.e29_9 { 
+	border-radius:500px;
+    background-color: rgba(217, 217, 217, 0.8);
+	width:300px;
+	height:300px;
+	position:absolute;
+	left:118px;
+	top:96px;
+}
+.e29_10 { 
+	border-radius:500px;
+    background-color: rgba(217, 217, 217, 0.8);
+	width:300px;
+	height:300px;
+	position:absolute;
+	left:550px;
+	top:362px;
+}
+.e29_7 { 
+	color: #D9D9D9;
+	width:1263px;
+	height:188px;
+	position:absolute;
+	left:88px;
+	top:723px;
+	font-family:Inter;
+	text-align:left;
+	font-size:16px;
+	letter-spacing:0;
+}
+.e29_6 { 
+	color: #D9D9D9;
+	width:920px;
+	height:609px;
+	position:absolute;
+	left:259px;
+	top:123px;
+	font-family:Inter;
+	text-align:left;
+	
+	letter-spacing:0;
+}
+
+
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-40px);
+    }
+    60% {
+        transform: translateY(-20px);
+    }
+}
+
+.e29_11, .e29_9, .e29_10 {
+    border-radius: 500px;
+    background-color: rgba(217, 217, 217, 0.8);
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    animation: bounce 2s infinite;
+}
+
+.e29_11 {
+    left: 904px;
+    top: 626px;
+}
+
+.e29_9 {
+    left: 118px;
+    top: 96px;
+    font-size: 30px;
+    color: #D9D9D9;
+}
+
+.e29_10 {
+    left: 550px;
+    top: 362px;
+}
+
+@keyframes bounceText {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-20px);
+    }
+    60% {
+        transform: translateY(-10px);
+    }
+}
+
+
+.e29_7 {
+    font-size: 14px;
+    min-width: 11px;
+    white-space: nowrap;
+    margin: 0;
+    position: fixed;
+    color: transparent;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.e29_7::before {
+    content: "When I first began writing, I felt that writing should go on, I still do feel that it should go on but when I first began writing I was completely possessed by the necessity that writing should go on and on and if writing should go on what had colons and commas to do with it, what had periods to do with it what had small letters and capitals to do with it to do with writing going on which was at that time the most profound need I had in connection with writing. What had colons and semi-colons to do with it what had commas to do with it what had periods to do with it. What had periods to do with it. Inevitably no matter how completely I had to have writing go on, physically one had to again and again stop sometime and if one had to again and again stop sometime and if one had to again and again stop sometime then periods had to exist. Beside I had always liked the look of periods and I liked what they did. Stopping sometime did not really keep one from going on, it was nothing that interfered, it was only something that happened, and as it happened as a perfectly natural happening, I did not believe in periods and I used them. I really never stopped using them.";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: #D9D9D9;
+    overflow: hidden;
+    border-right: 1px solid #D9D9D9;
+    white-space: pre-wrap;
+    animation: typing 15s steps(100) infinite;
+}
+
+@keyframes typing {
+    0% {
+        width: 0%;
+    }
+    50% {
+        width: 100%;
+    }
+    100% {
+        width: 0%;
+    }
+}
+
+  
+  
+  
+  
+  
