@@ -77,13 +77,12 @@ div {
     margin: 0;
     background-color: white;
     color: rgb(163, 163, 163);
-  
     margin-right: 20px; /* Adjust the right margin to move text to the right */
   }
   
   .falling-text p {
     display: inline-block;
-    font-size: 26px;
+    font-size: 23px;
     animation: fall 1s ease-out forwards;
     opacity: 0; /* Start with opacity 0 to make letters appear gradually */
   }
